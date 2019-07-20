@@ -57,6 +57,7 @@
             height: 300px;
             width: 300px;
         }
+     
     </style>
 
 </head>
@@ -818,10 +819,13 @@
                         <!---NEW TABS-->
 
                         <div class="tab-pane" id="rating">
+                                <p>My rating: <input type="number" name="your_awesome_parameter" id="rating1" class="rating" data-clearable="remove"/></p>
+                            
+                            <label for="">Review</label>
+                                <input type="text" class="form-control">
+                                    
 
-                         
-                                        <span id="rateMe1"></span>
-                                 
+                                <button class="btn btn-primary mt-2">Submit</button>
                         </div>
 
 
@@ -881,14 +885,16 @@
 
     <script src="../../libs/carousel/owl.carousel.min.js"></script>
 
+
     <!--ADD STARS-->
     <script src="../addons/rating.js"></script>
 
 
     <!--Custom JS -->
     <script src="../../js/custom.js"></script>
+ 
 
-
+ <script src="./bootstrap-rating-input.min.js"></script>
 
 
     <!--Extra JS Libraries-->
@@ -904,13 +910,12 @@
     <script>
 
 
-// Rating Initialization
-$(document).ready(function() {
-  $('#rateMe1').mdbRate();
-});
 
-        $("#input-id").rating();
-
+$(function(){
+        $('input').on('change', function(){
+          alert("Changed: " + $(this).val())
+        });
+      });
 
         $(function () {
 
