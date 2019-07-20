@@ -57,6 +57,7 @@
                 </div>
             </div>
         </div>
+
         <div class="container main-menu">
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
@@ -112,7 +113,43 @@
     <!-- End banner Area -->
 
 
+
+<section id="search-section" class="py-5 bg-dark">
+        <div class="container">
+                <br/>
+                <div class="row justify-content-center">
+                                    <div class="col-12 col-md-10 col-lg-8">
+                                        <form autocomplete="off" class="card card-sm">
+                                            <div class="card-body row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <i class="fa fa-search fa-2x text-body"></i>
+                                                </div>
+                                                <!--end of col-->
+                                                <div class="col">
+                                                        <input id="myInput" class="form-control form-control-lg form-control-borderless"  type="text" name="myCountry" placeholder="Search places">
+                                                </div>
+                                                <!--end of col-->
+                                                <div class="col-auto">
+                                                    <a class="btn btn-block btn-dark" type="submit" id="recommendationEngine" href="./vendor/profile-page/profile.html">Search</a>
+                                                </div>
+                                                <!--end of col-->
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+            </div>
+
+            
+</section>
+
+
+
+
     <div id="services"></div>
+
+
+
 
     <div id="trending"></div>
 
@@ -166,6 +203,7 @@
             $("#contact").load("./vendor/contact.html");
             $("#footer").load("./vendor/footer.html");
         });
+        
     </script>
 
 </body>
