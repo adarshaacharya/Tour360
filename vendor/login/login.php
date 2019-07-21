@@ -85,7 +85,7 @@
                             </div>
 
                             <div class="card-footer">
-                                <button name="submit" class="btn btn-warning btn-block"  value="submit">Sign Up</button>
+                                <button name="submit" class="btn btn-warning btn-block"  value="submit">Log In</button>
 
                             </div>
                         </form>

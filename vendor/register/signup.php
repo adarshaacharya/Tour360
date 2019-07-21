@@ -97,8 +97,8 @@
 
     <script>
         $(function () {
-            $("#header").load("./navbar.html");
-            $("#footer").load("../footer.html");
+            $("#header").load("./navbar.php");
+            $("#footer").load("../footer.php");
         });
     </script>
 

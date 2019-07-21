@@ -16,7 +16,7 @@
         </ul>
         <span class="navbar-text white-text">
 
-            <a class="nav-link" href="../../index.html">Back To Home</a>
+            <a class="nav-link" href="../../index.php">Back To Home</a>
 
         </span>
     </div>

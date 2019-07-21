@@ -82,7 +82,7 @@
                             </div>
                             <input type="hidden" name="mode" value="user">
                             <div class="card-footer">
-                                <button name="submit" value="submit" class="btn btn-warning btn-block">LOGIN</button>
+                                <button name="submit" value="submit" class="btn btn-warning btn-block">Sign Up</button>
 
                             </div>
                         </form>
