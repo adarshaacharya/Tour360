@@ -32,11 +32,7 @@
 
     <!--Media Query -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <style>
-        body{
-            overflow-x:hidden;
-            }
-    </style>
+
 </head>
 
 <body>
@@ -62,6 +58,7 @@
                 </div>
             </div>
         </div>
+
         <div class="container main-menu">
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
@@ -75,15 +72,11 @@
                         <li><a href="#custom-packages">Custom Packages</a></li>
                         <?php 
                             if(isset($_SESSION['login'])){
-
                          ?>
-                        <li><a target="_blank" href="./vendor/login/logout.php">LogOut</a>
+                         <li><a target="_blank" href="./vendor/login/logout.php">LogOut</a>
 
                         </li>
-                        <?php 
-                            }
-                         else{ 
-                        ?>
+                     <?php }else{ ?>
                         <li><a target="_blank" href="./vendor/login/login.php">Login</a>
 
                         </li>
@@ -92,9 +85,7 @@
                         <li class="menu-has-children"><a href="./vendor/register/signup.php">Sign Up</a>
 
                         </li>
-                        <?php
-                        }  
-                        ?>
+                    <?php } ?>
                         </li>
                         <li><a href="#contact" class="smooth-scroll">Contact</a></li>
                     </ul>
@@ -116,7 +107,7 @@
                         Nepal has even made it to Lonely Planet’s list of Top 10 countries that ‘you cannot afford to
                         miss list’. Even natural disasters can’t keep Nepal down for long.
                     </p>
-                    <a href="#services" class="primary-btn text-uppercase smooth-scroll">Explore Nepal</a>
+                    <a href="#services" class="btn btn-info btn-lg text-uppercase smooth-scroll">Explore Nepal</a>
                 </div>
 
             </div>
@@ -129,7 +120,43 @@
     <!-- End banner Area -->
 
 
+
+<section id="search-section" class="py-5 bg-dark">
+        <div class="container">
+                <br/>
+                <div class="row justify-content-center">
+                                    <div class="col-12 col-md-10 col-lg-8">
+                                        <form autocomplete="off" class="card card-sm">
+                                            <div class="card-body row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <i class="fa fa-search fa-2x text-body"></i>
+                                                </div>
+                                                <!--end of col-->
+                                                <div class="col">
+                                                        <input id="myInput" class="form-control form-control-lg form-control-borderless"  type="text" name="myCountry" placeholder="Search places">
+                                                </div>
+                                                <!--end of col-->
+                                                <div class="col-auto">
+                                                    <a class="btn btn-block btn-dark" type="submit" id="recommendationEngine" href="./vendor/profile-page/profile.php">Search</a>
+                                                </div>
+                                                <!--end of col-->
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+            </div>
+
+            
+</section>
+
+
+
+
     <div id="services"></div>
+
+
+
 
     <div id="trending"></div>
 
@@ -183,6 +210,7 @@
             $("#contact").load("./vendor/contact.php");
             $("#footer").load("./vendor/footer.php");
         });
+        
     </script>
 
 </body>

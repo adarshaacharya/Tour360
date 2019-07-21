@@ -76,7 +76,7 @@ include '../dbConfig.php';
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="../../index.html">Home</a>
+                    <a class="nav-link" href="../../index.php">Home</a>
                 </li>
 
                 <li class="nav-item active">
@@ -152,6 +152,9 @@ include '../dbConfig.php';
                             <a href="" data-target="#profile" data-toggle="tab" class="nav-link active">Information</a>
                         </li>
                         <li class="nav-item">
+                            <a href="" data-target="#info" data-toggle="tab" class="nav-link">Requirements</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="" data-target="#flights" data-toggle="tab" class="nav-link">Flights</a>
                         </li>
                         <li class="nav-item">
@@ -186,19 +189,20 @@ include '../dbConfig.php';
 
 
                                     <p>
-                                        <li>Hi</li>
-                                        <li>3252</li>
-                                        <li>524354</li>
-                                        <span id="dots">...</span><span id="more">
+                                        <li>Very Exciting Adventure with alot of challanges.</li>
+                                        <li>Direct Interaction with nature</li>
+                                        <li>Beautiful Scnery but with alot of snow and cold weather</li>
+                                        <span id="dots">...</span>
 
-                                            <li>Hi</li>
-                                            <li>More</li>
-                                            <li>jkhgsdkjgh</li>
+                                        <span id="more">
+                                            <li>High Expenditure</li>
+                                            <li>Experienced Guides to take you with them in the adventure.</li>
+                                            <li>Less Pollution and more nature.</li>
 
                                         </span>
                                     </p>
                                     <u>
-                                        <a onclick="myFunction()" class="text-primary" id="myBtn">Read more</a>
+                                        <a onclick="myFunction()" class="text-primary" id="readMore">Read more</a>
                                     </u>
 
 
@@ -209,18 +213,15 @@ include '../dbConfig.php';
                                 <div class="col-md-6">
                                     <h5>Related</h5>
                                     <br>
-                                    <a href="#" class="badge badge-dark badge-pill">html5</a>
-                                    <a href="#" class="badge badge-dark badge-pill">react</a>
-                                    <a href="#" class="badge badge-dark badge-pill">codeply</a>
-                                    <a href="#" class="badge badge-dark badge-pill">angularjs</a>
-                                    <a href="#" class="badge badge-dark badge-pill">css3</a>
-                                    <a href="#" class="badge badge-dark badge-pill">jquery</a>
-                                    <a href="#" class="badge badge-dark badge-pill">bootstrap</a>
-                                    <a href="#" class="badge badge-dark badge-pill">responsive-design</a>
+                                    <a href="#" class="badge badge-dark badge-pill">VisitNepal2020</a>
+                                    <a href="#" class="badge badge-dark badge-pill">Tallest Mountain</a>
+                                    <a href="#" class="badge badge-dark badge-pill">Adventure</a>
+                                    <a href="#" class="badge badge-dark badge-pill">Mountain Climbing</a>
+
                                     <hr>
-                                    <span class="badge badge-primary"><i class="fa fa-user"></i> 900 Followers</span>
-                                    <span class="badge badge-success"><i class="fa fa-cog"></i> 43 Forks</span>
-                                    <span class="badge badge-danger"><i class="fa fa-eye"></i> 245 Views</span>
+                                    <span class="badge badge-primary"><i class="fa fa-user"></i> 1000 Climbers Yearly</span>
+                                    <span class="badge badge-success"><i class="fa fa-cog"></i> over 700 Guides</span>
+                                    
                                 </div>
 
 
@@ -232,43 +233,53 @@ include '../dbConfig.php';
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <strong>Abby</strong> joined ACME Project Team in
-                                                    <strong>`Collaboration`</strong>
+                                                    <strong>9159</strong> sucessful climbs by
+                                                    <strong>`5294 people.`</strong> in 2018.
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <strong>Gary</strong> deleted My Board1 in
-                                                    <strong>`Discussions`</strong>
+                                                    <strong>295</strong>deaths in 2018
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <strong>Kensington</strong> deleted MyBoard3 in
-                                                    <strong>`Discussions`</strong>
+                                                    <strong>Kami Rita Sherpa</strong>holds recod of climbing everest for 
+                                                    <strong>24 times.</strong>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td>
-                                                    <strong>John</strong> deleted My Board1 in
-                                                    <strong>`Discussions`</strong>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <strong>Skell</strong> deleted his post Look at Why this is.. in
-                                                    <strong>`Discussions`</strong>
-                                                </td>
-                                            </tr>
+        
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
                             <!--/row-->
                         </div>
+                        
 
 
-
+                            <div class="tab-pane" id="info">
+                                <h3 class="mb-3 text-muted">Your Requirements</h3>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <br>
+                                        <p class="text-justify">
+                                      
+                                                <li>Requires Tourist Visa to Nepal</li><br>
+                                                <li>Payment of visa must be dont to the government</li><br>
+                                                <li>You must have climbing permit from Nepal's government. It costs $11,000</li><br>
+                                                <li>You need to pay certain amount of money for Expedition. From $32000 to $100,000</li><br>
+                                                <li>Perticular Gears is must. Jackets, boots, harneses etc must be managed.</li><br>
+                                                <li>You must take a bottlede oxygen to deal whin thin air in the horizon.</li><br>
+                                                
+                                            
+                                            </p>
+                                        <hr>   
+    
+                                    </div>
+                                </div>
+                            </div>
 
 
 
@@ -278,16 +289,14 @@ include '../dbConfig.php';
                             <div class="block mb-5">
                                 <div class="row">
                                     <div class="span4">
-                                        <img class="aeroplane img-left" src="../../img/profile/aeroplane.jpg" />
+                                        <img class="aeroplane img-left" src="../../img/profile/flights/buddha.jpeg" />
                                         <div class="content-heading">
-                                            <h3>Flight 01 </h3>
+                                            <h3>Buddha Airlines </h3>
                                             <hr>
                                         </div>
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
+                                        <p>Book your flights with Buddha Air, best airline in Nepal. Get cheapest flights to Nepal and top deals on international flights to Varanasi and Kolkata from different parts of Nepal.</p>
 
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
+                                        <p>Buddha Air is a number one airlines in Nepal. It operates domestic flights within Nepal, serving mainly large towns and cities in Nepal, linking Kathmandu with other cities</p>
 
 
                                         <a href="" class="btn btn-dark" data-toggle="modal"
@@ -304,16 +313,15 @@ include '../dbConfig.php';
                             <div class="block mb-5">
                                 <div class="row">
                                     <div class="span4">
-                                        <img class="aeroplane img-left" src="../../img/profile/aeroplane.jpg" />
+                                        <img class="aeroplane img-left" src="../../img/profile/flights/yeti.jpg" />
                                         <div class="content-heading">
-                                            <h3>Hotel 01 </h3>
+                                            <h3>Yeti Airlines </h3>
                                             <hr>
                                         </div>
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
+                                        <p>Book your flights with Buddha Air, best airline in Nepal. Get cheapest flights to Nepal and top deals on international flights to Varanasi and Kolkata from different parts of Nepal.</p>
 
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
+                                      
+                                        <p>Buddha Air is a number one airlines in Nepal. It operates domestic flights within Nepal, serving mainly large towns and cities in Nepal, linking Kathmandu with other cities</p>
 
 
 
@@ -338,16 +346,16 @@ include '../dbConfig.php';
                             <div class="block mb-5">
                                 <div class="row">
                                     <div class="span4">
-                                        <img class="aeroplane img-left" src="../../img/profile/aeroplane.jpg" />
+                                        <img class="aeroplane img-left" src="../../img/profile/flights/nac.jpg" />
                                         <div class="content-heading">
-                                            <h3>Hotel 01 </h3>
+                                            <h3>Nepal Airlines </h3>
                                             <hr>
                                         </div>
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
+                                        <p>Book your flights with Buddha Air, best airline in Nepal. Get cheapest flights to Nepal and top deals on international flights to Varanasi and Kolkata from different parts of Nepal.</p>
 
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
+                                      
+                                        
+                                            <p>Buddha Air is a number one airlines in Nepal. It operates domestic flights within Nepal, serving mainly large towns and cities in Nepal, linking Kathmandu with other cities</p>
 
                                         <a href="" class="btn btn-light" data-toggle="modal"
                                             data-target="#bookingForm">Book Now</a>
@@ -444,7 +452,7 @@ include '../dbConfig.php';
                             <div class="block mb-5">
                                 <div class="row">
                                     <div class="span4">
-                                        <img class="img-left" src="../../img/profile/hotel-01.jpeg" />
+                                        <img class="img-left aeroplane" src="../../img/profile/hotels/hotel-01.jpg" />
                                         <div class="content-heading">
                                             <h3><?php echo $value['name']; ?></h3>
                                             <hr>
@@ -767,7 +775,7 @@ include '../dbConfig.php';
                 <div class="col-lg-4 order-lg-1 text-center">
                     <img src="../../img/profile/everest.webp" class="mx-auto img-fluid img-circle d-block" alt="avatar">
                     <br>
-                    <button class="btn btn-info btn-block mt">View 360° Image</button>
+                    <a  target="_blank" class="btn btn-info btn-block" href="./360 Images/navBar.php">View 360° Image</a>
                 </div>
             </div>
         </div>

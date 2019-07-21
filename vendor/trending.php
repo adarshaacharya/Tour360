@@ -16,9 +16,9 @@
                 <!-- Title -->
                 <h4 class="card-title"><a>Explore Nepal Adventures</a></h4>
                 <!-- Text -->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <p class="card-text"></p>
                 <!-- Button -->
+                <p class="card-text">Click on the below button for details</p>
                 <a href="../vendor/packages-desc.html" target="_blank" class="btn btn-primary">Explore</a>
 
             </div>
@@ -45,12 +45,13 @@
             <div class="card-body">
 
                 <!-- Title -->
-                <h4 class="card-title"><a>Card title</a></h4>
+                <h4 class="card-title"><a>Lumbini Visit</a></h4>
                 <!-- Text -->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <p class="card-text">Click on the below button for details
+
+                </p>
                 <!-- Button -->
-                <a href="#" class="btn btn-primary">Button</a>
+                <a href="#" class="btn btn-primary">Explore</a>
 
             </div>
 
@@ -78,12 +79,11 @@
             <div class="card-body">
 
                 <!-- Title -->
-                <h4 class="card-title"><a>Card title</a></h4>
+                <h4 class="card-title"><a>Animal Safari</a></h4>
                 <!-- Text -->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <p class="card-text">Click on the below button for details.</p>
                 <!-- Button -->
-                <a href="#" class="btn btn-primary">Button</a>
+                <a href="#" class="btn btn-primary">Explore</a>
 
             </div>
 
@@ -107,12 +107,11 @@
                 <div class="card-body">
     
                     <!-- Title -->
-                    <h4 class="card-title"><a>Card title</a></h4>
+                    <h4 class="card-title"><a>Pokhara Trip</a></h4>
                     <!-- Text -->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <p class="card-text">Click on the below button for details</p>
                     <!-- Button -->
-                    <a href="#" class="btn btn-primary">Button</a>
+                    <a href="#" class="btn btn-primary">Explore</a>
     
                 </div>
     
@@ -137,12 +136,11 @@
                 <div class="card-body">
     
                     <!-- Title -->
-                    <h4 class="card-title"><a>Card title</a></h4>
+                    <h4 class="card-title"><a>Historical Visit</a></h4>
                     <!-- Text -->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <p class="card-text">Click on the below button for details</p>
                     <!-- Button -->
-                    <a href="#" class="btn btn-primary">Button</a>
+                    <a href="#" class="btn btn-primary">EXPLORE</a>
     
                 </div>
     
@@ -163,12 +161,11 @@
                 <div class="card-body">
     
                     <!-- Title -->
-                    <h4 class="card-title"><a>Card title</a></h4>
+                    <h4 class="card-title"><a>Water Sports</a></h4>
                     <!-- Text -->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <p class="card-text">Click on the below button for details</p>
                     <!-- Button -->
-                    <a href="#" class="btn  btn-primary">Button</a>
+                    <a href="#" class="btn  btn-primary">Explore</a>
     
                 </div>
     

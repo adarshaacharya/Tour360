@@ -15,36 +15,26 @@
                                 <div class="vertical-heading">
                                    <h3>GET IN TOUCH</h3>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias modi est itaque aliquam sit, minima esse nihil mollitia no.</p>
+                                <p>If you want further inquiries you can contact by sending message to us. Thank You.</p>
     
                                 <div id="offices">
     
                                     <div class="row">
     
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
     
                                             <div class="office">
-                                                <h4>United States</h4>
+                                                <h4>Nepal</h4>
                                                 <ul class="office-details">
-                                                    <li><i class="fa fa-mobile"></i><span>+(55) 879 58 87 46</span></li>
-                                                    <li><i class="fa fa-envelope"></i><span>support@solo.com</span></li>
-                                                    <li><i class="fa fa-map-marker"></i><span>524 Mina Street Building 05<br>Newyork, USA.</span></li>
+                                                    <li><i class="fa fa-mobile"></i><span>+(977) 9865022541</span></li><br>
+                                                    <li><i class="fa fa-envelope"></i><span>support@tour360.com</span></li><br>
+                                                    <li><i class="fa fa-map-marker"></i><span>Sighadurbar Road
+                                                        <br>Kathmandu, Nepal.</span></li>
                                                 </ul>
                                             </div>
     
                                         </div>
-                                        <div class="col-md-6">
-    
-                                            <div class="office">
-                                                <h4>Australia</h4>
-                                                <ul class="office-details">
-                                                    <li><i class="fa fa-mobile"></i><span>+(88) 457 87 74 87</span></li>
-                                                    <li><i class="fa fa-envelope"></i><span>support@solo.com</span></li>
-                                                    <li><i class="fas fa-map-marker"></i><span>507 Din Street Building 55 <br>Sydney, Australia.</span></li>
-                                                </ul>
-                                            </div>
-    
-                                        </div>
+                                 
     
                                     </div>
     
@@ -66,7 +56,7 @@
     
                                 <form>
                                     <h4>Send Message</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repell.</p>
+                                    <p></p>
     
                                     <div class="row">
     
@@ -97,7 +87,7 @@
                                     </div>
     
                                     <div id="submit-btn">
-                                        <a class="btn btn-general btn-yellow" href="#" title="Submit" role="button">Submit</a>
+                                        <a class="btn btn-general btn-info" href="#" title="Submit" role="button">Submit</a>
                                     </div>
     
                                 </form>

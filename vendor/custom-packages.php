@@ -9,16 +9,12 @@
                     We‘ll make it for you. </h6>
 
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis doloremque iusto eligendi harum
-                    autem. Nobis nesciunt iusto iste blanditiis. Deleniti.
+                        After the success of Visit Nepal Year 1998 and Nepal Tourism Year 2011, the Tourism Board of Nepal introduced Visit Nepal Campaign 2020. The Campaign was announced in 2015 to be held in 2018 but was later postponed to 2020.  
                 </p>
 
 
                 <a href="" class="btn btn-primary mb-4" data-toggle="modal" data-target="#custompackageForm">REQUEST
                     CUSTOM PACKAGE</a>
-
-
-
 
 
             </div>
