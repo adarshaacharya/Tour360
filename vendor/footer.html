@@ -10,10 +10,11 @@
                     <!--First column-->
                     <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
                         <h6 class="text-uppercase text-white pb-2">
-                            <strong>Tour 360 Degree</strong>
+                            <strong>Tour 360 </strong>
                         </h6>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut mollitia blanditiis iste hic possimus magni quam! Vero quidem dolorem autem.</p>
+                        <p>
+                               Tour 360 is a complete travel experience that we are trying to provide starts from browsing through destinations, virtually experiencing the destination through a VR experience.</p>
                     </div>
                     <!--/.First column-->
     
