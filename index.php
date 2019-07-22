@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./libs/bootstrap.min.css">
 
     <!--Material Design for Bootstrap -->
-    <link rel="stylesheet" href="/libs/mdb.min.css">
+    <link rel="stylesheet" href="libs/mdb.min.css">
 
     <link rel="stylesheet" href="./libs/carousel/owl.carousel.css">
 
