@@ -19,7 +19,7 @@
 
             </div>
             <div class="col-lg-6 col-md-12 home-about-right no-padding">
-                <img class="img-fluid" src="../img/custom-packages/tourism.jpg" alt="">
+                <img class="img-fluid" src="./img/custom-packages/tourism.jpg" alt="">
             </div>
         </div>
     </div>

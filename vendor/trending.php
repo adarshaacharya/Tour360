@@ -2,24 +2,23 @@
 
         <h2 class="mb-5 font-weight-bold text-center">TRENDING IN NEPAL</h2>
 <div class="row">
-    <div class="col-md-4 mb-5">
+<div class="col-md-4 mb-5">
         <!-- Card -->
         <div class="card">
 
             <!-- Card image -->
-            <img class="card-img-top" src="../img/trending/img01.jpeg"
-                alt="Card image cap">
+            <img class="card-img-top" src="./img/trending/img01.jpeg"
+            alt="Card image cap"/>
 
             <!-- Card content -->
             <div class="card-body">
 
                 <!-- Title -->
-                <h4 class="card-title"><a>Explore Nepal Adventures</a></h4>
+                <h4 class="card-title"><a>Explore Adventures</a></h4>
                 <!-- Text -->
-                <p class="card-text"></p>
+                <p class="card-text">Click on the below button for details.</p>
                 <!-- Button -->
-                <p class="card-text">Click on the below button for details</p>
-                <a href="../vendor/packages-desc.html" target="_blank" class="btn btn-primary">Explore</a>
+                <a href="./vendor/" class="btn btn-primary">Explore</a>
 
             </div>
 
@@ -38,7 +37,7 @@
         <div class="card">
 
             <!-- Card image -->
-            <img class="card-img-top" src="../img/trending/img02.jpg"
+            <img class="card-img-top" src="./img/trending/img02.jpg"
             alt="Card image cap">
 
             <!-- Card content -->
@@ -72,8 +71,8 @@
         <div class="card">
 
             <!-- Card image -->
-            <img class="card-img-top" src="../img/trending/img03.jpg"
-            alt="Card image cap">
+            <img class="card-img-top" src="./img/trending/img03.jpg"
+            alt="Card image cap"/>
 
             <!-- Card content -->
             <div class="card-body">
@@ -100,7 +99,7 @@
             <div class="card">
     
                 <!-- Card image -->
-                <img class="card-img-top" src="../img/trending/img04.jpg"
+                <img class="card-img-top" src="./img/trending/img04.jpg"
                 alt="Card image cap">
     
                 <!-- Card content -->
@@ -129,7 +128,7 @@
             <div class="card">
     
                 <!-- Card image -->
-                <img class="card-img-top" src="../img/trending/img05.jpg"
+                <img class="card-img-top" src="./img/trending/img05.jpg"
                 alt="Card image cap">
     
                 <!-- Card content -->
@@ -154,7 +153,7 @@
             <div class="card">
     
                 <!-- Card image -->
-                <img class="card-img-top" src="../img/trending/img06.jpg"
+                <img class="card-img-top" src="./img/trending/img06.jpg"
                 alt="Card image cap">
     
                 <!-- Card content -->

@@ -170,15 +170,15 @@
 
 
 
-    <!--Jquery JS-->
-    <script src="libs/jquery-3.3.1.min.js"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="libs/jquery-3.4.1.min.js"></script>
 
     <!--Bootstrap JS-->
     <script src="libs/bootstrap.min.js"></script>
 
 
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="./libs/mdb.min.js"></script>
+    <script type="text/javascript" src="libs/mdb.min.js"></script>
 
 
     <!--Popper JS-->
