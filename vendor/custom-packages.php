@@ -13,7 +13,7 @@
                 </p>
 
 
-                <a href="" class="btn btn-primary mb-4" data-toggle="modal" data-target="#custompackageForm">REQUEST
+                <a href="" class="btn btn-info mb-4" data-toggle="modal" data-target="#custompackageForm">REQUEST
                     CUSTOM PACKAGE</a>
 
 

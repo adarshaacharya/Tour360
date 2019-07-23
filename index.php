@@ -62,30 +62,30 @@
         <div class="container main-menu">
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <a href="index.php"><img src="img/logo1.png" alt="" title="" /></a>
+                    <a href="index.php"><img src="" alt="" title="" /></a>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
                         <li><a href="#home" class="smooth-scroll">Home</a></li>
                         <li><a href="#services" class="smooth-scroll">Services</a></li>
-                        <li><a href="#trending">Packages</a></li>
+                        <li><a href="#trending">Trending</a></li>
                         <li><a href="#custom-packages">Custom Packages</a></li>
-                        <?php 
-                            if(isset($_SESSION['login'])){
-                         ?>
-                         <li><a target="_blank" href="./vendor/login/logout.php">LogOut</a>
+                        <?php
+                        if (isset($_SESSION['login'])) {
+                            ?>
+                            <li><a target="_blank" href="./vendor/login/logout.php">LogOut</a>
 
-                        </li>
-                     <?php }else{ ?>
-                        <li><a target="_blank" href="./vendor/login/login.php">Login</a>
+                            </li>
+                        <?php } else { ?>
+                            <li><a href="./vendor/login/login.php">Login</a>
 
-                        </li>
+                            </li>
 
 
-                        <li class="menu-has-children"><a href="./vendor/register/signup.php">Sign Up</a>
+                            <li><a href="./vendor/register/signup.php">Sign Up</a>
 
-                        </li>
-                    <?php } ?>
+                            </li>
+                        <?php } ?>
                         </li>
                         <li><a href="#contact" class="smooth-scroll">Contact</a></li>
                     </ul>
@@ -95,18 +95,23 @@
     </header><!-- #header -->
 
 
+
+
+
+
+
+
     <!-- start banner Area -->
     <section id="home" class="banner-area relative">
         <div class="overlay overlay-bg"></div>
         <div class="container">
             <div class="row fullscreen align-items-center justify-content-between">
-                <div class="col-lg-6 col-md-6 banner-left">
-                    <h6 class="text-white">Experience your dream vacation from your home</h6>
+                <div class="col-md-6 banner-left">
+                    <h6 class="text-white"></h6>
                     <h1 class="text-white">Tour 360</h1>
-                    <p class="text-white">
-                        Nepal has even made it to Lonely Planet’s list of Top 10 countries that ‘you cannot afford to
-                        miss list’. Even natural disasters can’t keep Nepal down for long.
-                    </p>
+                    <h6 class="text-white mb-3">
+                        Experience your dream vacation from your home
+                    </h6>
                     <a href="#services" class="btn btn-info btn-lg text-uppercase smooth-scroll">Explore Nepal</a>
                 </div>
 
@@ -121,41 +126,40 @@
 
 
 
-<section id="search-section" class="py-5 bg-dark">
+    <section id="search-section" class="py-5">
         <div class="container">
-                <br/>
-                <div class="row justify-content-center">
-                                    <div class="col-12 col-md-10 col-lg-8">
-                                        <form autocomplete="off" class="card card-sm">
-                                            <div class="card-body row no-gutters align-items-center">
-                                                <div class="col-auto">
-                                                    <i class="fa fa-search fa-2x text-body"></i>
-                                                </div>
-                                                <!--end of col-->
-                                                <div class="col">
-                                                        <input id="myInput" class="form-control form-control-lg form-control-borderless"  type="text" name="myCountry" placeholder="Search places">
-                                                </div>
-                                                <!--end of col-->
-                                                <div class="col-auto">
-                                                    <a class="btn btn-block btn-dark" type="submit" id="recommendationEngine" href="./vendor/profile-page/profile.php">Search</a>
-                                                </div>
-                                                <!--end of col-->
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <!--end of col-->
-                                </div>
+            <br />
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <form autocomplete="off" class="card card-sm">
+                        <div class="card-body row no-gutters align-items-center">
+                            <div class="col-auto mr-2">
+                                <i class="fa fa-search fa-2x text-body"></i>
+                            </div>
+                            <!--end of col-->
+                            <div class="col">
+                                <input id="myInput" class="form-control form-control-lg form-control-borderless" type="text" name="myCountry" placeholder="Search places">
+                            </div>
+                            <!--end of col-->
+                            <div class="col-auto">
+                                <a class="btn btn-block btn-dark" type="submit" id="recommendationEngine" href="./vendor/profile-page/profile.php">Search</a>
+                            </div>
+                            <!--end of col-->
+                        </div>
+                    </form>
+                </div>
+                <!--end of col-->
             </div>
+        </div>
 
-            
-</section>
+
+    </section>
+
 
 
 
 
     <div id="services"></div>
-
-
 
 
     <div id="trending"></div>
@@ -170,8 +174,8 @@
 
 
 
-  <!-- JQuery -->
-  <script type="text/javascript" src="libs/jquery-3.4.1.min.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="libs/jquery-3.4.1.min.js"></script>
 
     <!--Bootstrap JS-->
     <script src="libs/bootstrap.min.js"></script>
@@ -203,13 +207,16 @@
 
 
     <script>
-        $(function () {
+        $(function() {
             $("#services").load("./vendor/services.php");
             $("#trending").load("./vendor/trending.php");
             $("#custom-packages").load("./vendor/custom-packages.php");
             $("#contact").load("./vendor/contact.php");
             $("#footer").load("./vendor/footer.php");
         });
+
+
+
         
     </script>
 

@@ -9,26 +9,27 @@
 
     <link rel="icon" type="image/png" href="../img/favicon.ico" />
 
-    <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+   
+    <link rel="icon" type="image/png" href="../../img/favicon.ico" />
 
+    
     <!--Normalise CSS-->
-    <link rel="stylesheet" type="text/css" href="../libs/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/normalize.css">
 
     <!-- Font awesome 5.9-->
-    <link rel="stylesheet" href="../libs/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../../libs/fontawesome/css/all.css">
 
     <!--Bootstrap-->
-    <link rel="stylesheet" href="../libs/bootstrap.min.css">
+    <link rel="stylesheet" href="../../libs/bootstrap.min.css">
 
     <!--Material Design for Bootstrap -->
-    <link rel="stylesheet" href="../libs/mdb.min.css">
+    <link rel="stylesheet" href="../../libs/mdb.min.css">
 
     <!--Style css-->
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/style.css">
 
     <!--Media Query -->
-    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../../css/responsive.css">
 
 </head>
 
@@ -59,7 +60,7 @@
 
                 <div class="text-right">
                     <!-- Sign up button -->
-                    <button name="submit" value="submit" class="btn btn-primary  my-4" type="submit">Next</button>
+                    <button name="submit" value="submit" class="btn btn-info  my-4" type="submit">Next</button>
                 </div>
             </form>
             <!-- Default form register -->
@@ -77,23 +78,22 @@
 
 
 
-
     <!--Jquery JS-->
-    <script src="../libs/jquery-3.3.1.min.js"></script>
+    <script src="../../libs/jquery-3.4.1.min.js"></script>
 
     <!--Bootstrap JS-->
-    <script src="../libs/bootstrap.min.js"></script>
+    <script src="../../libs/bootstrap.min.js"></script>
 
 
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="../libs/mdb.min.css"></script>
+    <script type="text/javascript" src="../../libs/mdb.min.css"></script>
 
     <!--Popper JS-->
-    <script src=".../libs/popper.min.js"></script>
+    <script src=".../../libs/popper.min.js"></script>
 
 
     <!--Custom JS -->
-    <script src="../js/custom.js"></script>
+    <script src="../../js/custom.js"></script>
 
     <script>
         $(function () {

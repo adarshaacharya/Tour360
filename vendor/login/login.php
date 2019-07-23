@@ -7,28 +7,26 @@
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/png" href="../img/favicon.ico" />
+    <link rel="icon" type="image/png" href="../../img/favicon.ico" />
 
-    <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
+    
     <!--Normalise CSS-->
-    <link rel="stylesheet" type="text/css" href="../libs/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/normalize.css">
 
     <!-- Font awesome 5.9-->
-    <link rel="stylesheet" href="../libs/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../../libs/fontawesome/css/all.css">
 
     <!--Bootstrap-->
-    <link rel="stylesheet" href="../libs/bootstrap.min.css">
+    <link rel="stylesheet" href="../../libs/bootstrap.min.css">
 
     <!--Material Design for Bootstrap -->
-    <link rel="stylesheet" href="../libs/mdb.min.css">
+    <link rel="stylesheet" href="../../libs/mdb.min.css">
 
     <!--Style css-->
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/style.css">
 
     <!--Media Query -->
-    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../../css/responsive.css">
 
 </head>
 
@@ -49,7 +47,7 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            
+             
            
           </ul>
           <span class="navbar-text white-text">
@@ -60,6 +58,9 @@
         </div>
       </nav>
 
+
+
+
     <section class="p-5">
         <div class="container">
             <div class="row">
@@ -68,7 +69,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card">
-                        <div class="card-header bg-warning text-white">
+                        <div class="card-header bg-info text-white">
                             <h2>Login Form</h2>
 
                         </div>
@@ -108,7 +109,7 @@
                             </div>
 
                             <div class="card-footer">
-                                <button name="submit" class="btn btn-warning btn-block"  value="submit">Log In</button>
+                                <button name="submit" class="btn btn-info btn-block"  value="submit">Log In</button>
 
                             </div>
                         </form>
@@ -231,21 +232,21 @@
 
 
     <!--Jquery JS-->
-    <script src="../libs/jquery-3.3.1.min.js"></script>
+    <script src="../../libs/jquery-3.4.1.min.js"></script>
 
     <!--Bootstrap JS-->
-    <script src="../libs/bootstrap.min.js"></script>
+    <script src="../../libs/bootstrap.min.js"></script>
 
 
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="../libs/mdb.min.css"></script>
+    <script type="text/javascript" src="../../libs/mdb.min.css"></script>
 
     <!--Popper JS-->
-    <script src=".../libs/popper.min.js"></script>
+    <script src=".../../libs/popper.min.js"></script>
 
 
     <!--Custom JS -->
-    <script src="../js/custom.js"></script>
+    <script src="../../js/custom.js"></script>
 
     <script>
         $(function () {

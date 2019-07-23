@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif
 }
 
 
@@ -18,6 +18,15 @@
   }
 
 
+#height {
+    min-height: 100vh;
+}
+
+
+
+  #search-section{
+    background-color: #000000c4;
+  }
 
 /* =========================================
                 Arrow Down
@@ -38,7 +47,7 @@
 
 #arrow-down:hover,
 #arrow-down:focus {
-    color: #d3c724;
+    color: #19e4eb;
 }
 
 #arrow-down i {
@@ -260,3 +269,15 @@ ul.social-list li:nth-child(3) a:hover {
     background-color: DodgerBlue !important; 
     color: #ffffff; 
   }
+
+
+
+
+
+
+
+
+
+
+
+
