@@ -18,7 +18,7 @@
                 <!-- Text -->
                 <p class="card-text">Click on the below button for details.</p>
                 <!-- Button -->
-                <a href="./vendor/" class="btn btn-primary">Explore</a>
+                <a href="./vendor/" class="btn btn-info">Explore</a>
 
             </div>
 
@@ -50,7 +50,7 @@
 
                 </p>
                 <!-- Button -->
-                <a href="#" class="btn btn-primary">Explore</a>
+                <a href="#" class="btn btn-info">Explore</a>
 
             </div>
 
@@ -82,7 +82,7 @@
                 <!-- Text -->
                 <p class="card-text">Click on the below button for details.</p>
                 <!-- Button -->
-                <a href="#" class="btn btn-primary">Explore</a>
+                <a href="#" class="btn btn-info">Explore</a>
 
             </div>
 
@@ -110,7 +110,7 @@
                     <!-- Text -->
                     <p class="card-text">Click on the below button for details</p>
                     <!-- Button -->
-                    <a href="#" class="btn btn-primary">Explore</a>
+                    <a href="#" class="btn btn-info">Explore</a>
     
                 </div>
     
@@ -139,7 +139,7 @@
                     <!-- Text -->
                     <p class="card-text">Click on the below button for details</p>
                     <!-- Button -->
-                    <a href="#" class="btn btn-primary">EXPLORE</a>
+                    <a href="#" class="btn btn-info">EXPLORE</a>
     
                 </div>
     
@@ -164,7 +164,7 @@
                     <!-- Text -->
                     <p class="card-text">Click on the below button for details</p>
                     <!-- Button -->
-                    <a href="#" class="btn  btn-primary">Explore</a>
+                    <a href="#" class="btn  btn-info">Explore</a>
     
                 </div>
     
