@@ -44,7 +44,7 @@
         <div class="col-md-4">
 
             <!-- Default form register -->
-            <form action="signup_mode.php" method="post" class="text-center p-5">
+            <form action="signup_mode.php" method="post" class="text-center pt-5">
 
 
                 <h5>Register Type</h5> 
@@ -65,6 +65,11 @@
             </form>
             <!-- Default form register -->
 
+            <div class="text-center mb-5">
+                  Already have an account ? <br>
+                <a href="../login/login.php"> Click here to Sign In</a>
+
+            </div>
         </div>
         <div class="col-md-4"></div>
     </div>

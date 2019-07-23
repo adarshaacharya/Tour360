@@ -70,22 +70,22 @@
                         <li><a href="#services" class="smooth-scroll">Services</a></li>
                         <li><a href="#trending">Trending</a></li>
                         <li><a href="#custom-packages">Custom Packages</a></li>
-                        <?php
-                        if (isset($_SESSION['login'])) {
-                            ?>
-                            <li><a target="_blank" href="./vendor/login/logout.php">LogOut</a>
+                        <?php 
+                            if(isset($_SESSION['login'])){
+                         ?>
+                         <li><a target="_blank" href="./vendor/login/logout.php">LogOut</a>
 
-                            </li>
-                        <?php } else { ?>
-                            <li><a href="./vendor/login/login.php">Login</a>
+                        </li>
+                     <?php }else{ ?>
+                        <li><a target="_blank" href="./vendor/login/login.php">Login</a>
 
-                            </li>
+                        </li>
 
 
-                            <li><a href="./vendor/register/signup.php">Sign Up</a>
+                        <li><a href="./vendor/register/signup.php">Sign Up</a>
 
-                            </li>
-                        <?php } ?>
+                        </li>
+                    <?php } ?>
                         </li>
                         <li><a href="#contact" class="smooth-scroll">Contact</a></li>
                     </ul>
@@ -110,7 +110,7 @@
                     <h6 class="text-white"></h6>
                     <h1 class="text-white">Tour 360</h1>
                     <h6 class="text-white mb-3">
-                        Experience your dream vacation from your home
+                       Experience your dream vacation from your home
                     </h6>
                     <a href="#services" class="btn btn-info btn-lg text-uppercase smooth-scroll">Explore Nepal</a>
                 </div>
@@ -126,40 +126,41 @@
 
 
 
-    <section id="search-section" class="py-5">
+<section id="search-section" class="py-5">
         <div class="container">
-            <br />
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10 col-lg-8">
-                    <form autocomplete="off" class="card card-sm">
-                        <div class="card-body row no-gutters align-items-center">
-                            <div class="col-auto mr-2">
-                                <i class="fa fa-search fa-2x text-body"></i>
-                            </div>
-                            <!--end of col-->
-                            <div class="col">
-                                <input id="myInput" class="form-control form-control-lg form-control-borderless" type="text" name="myCountry" placeholder="Search places">
-                            </div>
-                            <!--end of col-->
-                            <div class="col-auto">
-                                <a class="btn btn-block btn-dark" type="submit" id="recommendationEngine" href="./vendor/profile-page/profile.php">Search</a>
-                            </div>
-                            <!--end of col-->
-                        </div>
-                    </form>
-                </div>
-                <!--end of col-->
+                <br/>
+                <div class="row justify-content-center">
+                                    <div class="col-12 col-md-10 col-lg-8">
+                                        <form autocomplete="off" class="card card-sm">
+                                            <div class="card-body row no-gutters align-items-center">
+                                                <div class="col-auto mr-2">
+                                                    <i class="fa fa-search fa-2x text-body"></i>
+                                                </div>
+                                                <!--end of col-->
+                                                <div class="col">
+                                                        <input id="myInput" class="form-control form-control-lg form-control-borderless"  type="text" name="myCountry" placeholder="Search places">
+                                                </div>
+                                                <!--end of col-->
+                                                <div class="col-auto">
+                                                    <a class="btn btn-block btn-dark" type="submit" id="recommendationEngine" href="./vendor/profile-page/profile.php">Search</a>
+                                                </div>
+                                                <!--end of col-->
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
             </div>
-        </div>
 
-
-    </section>
-
+            
+</section>
 
 
 
 
     <div id="services"></div>
+
+
 
 
     <div id="trending"></div>
@@ -174,8 +175,8 @@
 
 
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="libs/jquery-3.4.1.min.js"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="libs/jquery-3.4.1.min.js"></script>
 
     <!--Bootstrap JS-->
     <script src="libs/bootstrap.min.js"></script>
@@ -207,16 +208,13 @@
 
 
     <script>
-        $(function() {
+        $(function () {
             $("#services").load("./vendor/services.php");
             $("#trending").load("./vendor/trending.php");
             $("#custom-packages").load("./vendor/custom-packages.php");
             $("#contact").load("./vendor/contact.php");
             $("#footer").load("./vendor/footer.php");
         });
-
-
-
         
     </script>
 

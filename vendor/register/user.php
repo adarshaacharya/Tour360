@@ -85,6 +85,12 @@
                             </div>
                         </form>
 
+
+                        <div class="text-center mb-2">
+                            Already have an account ? <br>
+                           <a href="../login/login.php"> Click here to Sign In</a>
+                           </div>
+                           
                     </div>
 
                 </div>
