@@ -73,11 +73,11 @@
                         <?php 
                             if(isset($_SESSION['login'])){
                          ?>
-                         <li><a target="_blank" href="./vendor/login/logout.php">LogOut</a>
+                         <li><a href="./vendor/login/logout.php">LogOut</a>
 
                         </li>
                      <?php }else{ ?>
-                        <li><a target="_blank" href="./vendor/login/login.php">Login</a>
+                        <li><a href="./vendor/login/login.php">Login</a>
 
                         </li>
 
