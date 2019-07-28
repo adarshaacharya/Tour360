@@ -763,7 +763,7 @@ include '../dbConfig.php';
 
 
     <!--Jquery JS-->
-    <script src="../../libs/jquery-3.3.1.min.js"></script>
+    <script src="../../libs/jquery-3.4.1.min.js"></script>
 
     <!--Bootstrap JS-->
     <script src="../../libs/bootstrap.min.js"></script>
@@ -779,16 +779,9 @@ include '../dbConfig.php';
     <script src="../../libs/carousel/owl.carousel.min.js"></script>
 
 
-    <!--ADD STARS-->
-    <script src="../addons/rating.js"></script>
-
-
     <!--Custom JS -->
     <script src="../../js/custom.js"></script>
  
-
- <script src="./bootstrap-rating-input.min.js"></script>
-
 
     <!--Extra JS Libraries-->
     <script src="../../js/hoverIntent.js"></script>
@@ -829,3 +822,4 @@ include '../dbConfig.php';
 </body>
 
 </html>
+
