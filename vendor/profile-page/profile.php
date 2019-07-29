@@ -457,18 +457,16 @@ include '../dbConfig.php';
                                             <h3><?php echo $value['name']; ?></h3>
                                             <hr>
                                         </div>
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
+                                        <p><?php echo $value['description'] ?></p>
 
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
 
 
                                         <a href=""  class="btn btn-dark" data-toggle="modal"
                                             data-target="#bookHotel<?php echo $count;?>">Book Now</a>
 
                                         <?php 
-                                                if($count==1){
+                                                
+                                                if($value['availabe']==1){
                                              ?>
                                         <i class="fas fa-check-circle text-success"></i> <span
                                             class="text-success">Available</span>
@@ -548,6 +546,7 @@ include '../dbConfig.php';
 
 
                                             </div>
+                                            <input type="hidden" name="name" value="<?php echo $value['name']; ?>">
                                             <input type="hidden" name="<?php echo $value['name']; ?>" value=<?php echo $value['id']; ?>>
                                             <div class="modal-footer d-flex justify-content-center">
                                                 <button type="submit" name="submit1" value="submit" class="btn btn-deep-orange">Book Now</button>
@@ -594,17 +593,15 @@ include '../dbConfig.php';
                                             <h3><?php echo $value['name']; ?> </h3>
                                             <hr>
                                         </div>
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
 
-                                        <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada
-                                            magna mollis euismod. Donec sed odio dui.</p>
+                                        <p><?php echo $value['experience']; ?></p>
+                                        <p><?php echo $value['skill']; ?></p>
 
 
                                         <a href="" class="btn btn-dark" data-toggle="modal"
                                             data-target="#bookGuide<?php echo $count;?>">Book Now</a>
                                             <?php 
-                                                if($count==1){
+                                                if($value['available']==1){
                                              ?>
                                         <i class="fas fa-check-circle text-success"></i> <span
                                             class="text-success">Available</span>
@@ -681,6 +678,7 @@ include '../dbConfig.php';
 
 
                                             </div>
+                                            <input type="hidden" name="name" value="<?php echo $value['name']; ?>">
                                             <input type="hidden" name="<?php echo $value['name']; ?>" value=<?php echo $value['id']; ?>>
                                             <div class="modal-footer d-flex justify-content-center">
                                                 <button type="submit" name="submit2" value="submit" class="btn btn-deep-orange">Book Now</button>
