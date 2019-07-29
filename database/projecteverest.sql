@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 21, 2019 at 05:09 AM
+-- Generation Time: Jul 29, 2019 at 02:35 PM
 -- Server version: 10.1.33-MariaDB
 -- PHP Version: 7.2.6
 
@@ -65,8 +65,8 @@ CREATE TABLE `guide` (
 --
 
 INSERT INTO `guide` (`id`, `name`, `address`, `skill`, `available`, `experience`, `email`, `phone`, `password`, `photo`) VALUES
-(3, 'David', 'Kapan', 'Skilled', 0, 'Many', 'david@gmail.com', 45646512, '$2y$10$rJMcvR3iUh1TGvTkZL/JDug8msKlSzgWXEAC0VogoLYwvWuVkiOG.', '1423_f.jpg'),
-(4, 'Karma', 'Boudha', 'Skilled', 0, 'Many', 'karma@gmail.com', 5456456, '$2y$10$bBfWiiDft.F40bm2F/exBOCPyIcH1Rp8nwf4oFIMn7hZYWU/pz8Ha', '1423_f.jpg');
+(3, 'David', 'Kapan', 'Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada\r\n                                            magna mollis euismod. Donec sed odio dui.', 1, 'Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada\r\n                                            magna mollis euismod. Donec sed odio dui.', 'david@gmail.com', 45646512, '$2y$10$rJMcvR3iUh1TGvTkZL/JDug8msKlSzgWXEAC0VogoLYwvWuVkiOG.', '1423_f.jpg'),
+(4, 'Karma', 'Boudha', 'Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada\r\n                                            magna mollis euismod. Donec sed odio dui.', 1, 'Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada\r\n                                            magna mollis euismod. Donec sed odio dui.', 'karma@gmail.com', 5456456, '$2y$10$bBfWiiDft.F40bm2F/exBOCPyIcH1Rp8nwf4oFIMn7hZYWU/pz8Ha', '1423_f.jpg');
 
 -- --------------------------------------------------------
 
@@ -86,16 +86,17 @@ CREATE TABLE `hotel` (
   `email` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
   `photo` varchar(255) NOT NULL,
-  `rating` int(11) NOT NULL
+  `rating` int(11) NOT NULL,
+  `availabe` int(1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `hotel`
 --
 
-INSERT INTO `hotel` (`id`, `name`, `location`, `services`, `description`, `price`, `totalRoom`, `bookedRoom`, `email`, `password`, `photo`, `rating`) VALUES
-(15, 'Hotel', 'Kapan', 'Lots Of', 'Hmm', 1000, 25, 0, 'hotel@gmail.com', '$2y$10$kzQbUiKuERoDJDk/WNNdCeQ21hYCu/BkXLYgaJ44FOL2moKjqTB1.', '30ee7549-8310-421e-b92a-976fb2ba59b6.jpeg', 0),
-(16, 'Sagarmatha', 'Sukhedhara', 'Lots Of', 'Hmm', 450, 20, 0, 'sagarmatha@gmail.com', '$2y$10$O0ZgLSM8o6LvF5tmV1kVSO3sBlnXpD5O33Bf8zv4byDqWdmvqIZI6', '5pikachu-1gif.gif.jpg', 0);
+INSERT INTO `hotel` (`id`, `name`, `location`, `services`, `description`, `price`, `totalRoom`, `bookedRoom`, `email`, `password`, `photo`, `rating`, `availabe`) VALUES
+(15, 'Hotel', 'Kapan', 'Lots Of', 'Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada\r\n                                            magna mollis euismod. Donec sed odio dui.', 1000, 25, 0, 'hotel@gmail.com', '$2y$10$kzQbUiKuERoDJDk/WNNdCeQ21hYCu/BkXLYgaJ44FOL2moKjqTB1.', '30ee7549-8310-421e-b92a-976fb2ba59b6.jpeg', 0, 1),
+(16, 'Sagarmatha', 'Sukhedhara', 'Lots Of', 'Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada\r\n                                            magna mollis euismod. Donec sed odio dui.', 450, 20, 0, 'sagarmatha@gmail.com', '$2y$10$O0ZgLSM8o6LvF5tmV1kVSO3sBlnXpD5O33Bf8zv4byDqWdmvqIZI6', '5pikachu-1gif.gif.jpg', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -122,7 +123,9 @@ CREATE TABLE `place` (
   `name` varchar(255) NOT NULL,
   `category` varchar(255) NOT NULL,
   `description` text NOT NULL,
-  `address` varchar(255) NOT NULL
+  `address` varchar(255) NOT NULL,
+  `recent` text NOT NULL,
+  `things` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -169,7 +172,9 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`transaction_id`, `place_id`, `user_id`, `hotel_id`, `guide_id`, `status`, `price`, `name`) VALUES
-(47, 0, 9, 0, 3, 0, 0, 'David');
+(1, 0, 9, 0, 0, 0, 0, 'Karma'),
+(2, 0, 9, 0, 0, 0, 0, 'Sagarmatha'),
+(3, 0, 10, 0, 0, 0, 0, 'Sagarmatha');
 
 -- --------------------------------------------------------
 
@@ -192,7 +197,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `address`, `phone`, `email`, `password`, `photo`) VALUES
-(9, 'New', 'Kapan', 2147483647, 'new@gmail.com', '$2y$10$o8mYln7mj5DBFzgcw/A0COs6hIsF9u.q2Rdqv0mYeDvhsDGjOCOf.', '5pikachu-1gif.gif.jpg');
+(9, 'New', 'Kapan', 2147483647, 'new@gmail.com', '$2y$10$o8mYln7mj5DBFzgcw/A0COs6hIsF9u.q2Rdqv0mYeDvhsDGjOCOf.', '5pikachu-1gif.gif.jpg'),
+(10, 'Pemba', 'Kapan', 984561237, 'pemba@gmail.com', '$2y$10$HC27MoyU3c6EkwgQB0omdOdnc4mxdKrgf7/NftN56Hqo0MrAKD9AK', '5pikachu-1gif.gif.jpg');
 
 --
 -- Indexes for dumped tables
@@ -290,13 +296,13 @@ ALTER TABLE `rating`
 -- AUTO_INCREMENT for table `transaction`
 --
 ALTER TABLE `transaction`
-  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
+  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
