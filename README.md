@@ -13,5 +13,14 @@ Virtual Reality has been around for a while now but we have not really seen its 
 It was difficult for us to design a web virtual reality view page in such a way that we could deliver the whole Virtual Reality experience within a single page. We wanted to implement 360 images of multiple travel locations. After discussing amongst the team members for more than an hour, we came up with a personalized solution to our problem. We had the links to the 360 images of different destinations in their respective destination-profile pages. But we wanted to deliver the 360 image experience in such a way that our users could navigate through the 360 images in a very less number of steps. We then decided to implement the virtual reality with an additional web-page with links to various travel destinations within a drop-down menu in the navbar.
 
 
-Currently we're down due to our server problem so, to use features use this email and pw : new@gmail.com new
 
+
+## For using the full application you must signup and login that account
+
+
+You can also use this account for login : 
+
+```
+Email : new@gmailcom password : new
+
+```
