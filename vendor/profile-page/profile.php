@@ -138,10 +138,7 @@ include '../dbConfig.php';
 
 
 
-    <?php 
-        if (isset($_SESSION['login'])) {
-            if ($_SESSION['mode']=='user') {
-     ?>
+    
 
     <section id="profile-information" class="shadow-lg p-3 mx-5 rounded">
         <div class="container">
@@ -460,10 +457,22 @@ include '../dbConfig.php';
                                         <p><?php echo $value['description'] ?></p>
 
 
-
+                                        <?php 
+                                            if (isset($_SESSION['login'])) {
+                                                if ($_SESSION['mode']=='user') {
+                                        ?>
                                         <a href=""  class="btn btn-dark" data-toggle="modal"
                                             data-target="#bookHotel<?php echo $count;?>">Book Now</a>
+                                        <?php 
+                                                }
+                                            }
+                                            else{
 
+
+
+                                        ?>
+                                        <a href="../login/login.php">Log In To Book</a>
+                                        <?php } ?>
                                         <?php 
                                                 
                                                 if($value['availabe']==1){
@@ -514,7 +523,7 @@ include '../dbConfig.php';
                                             <div class="modal-body mx-3">
                                                 <div class="md-form mb-5">
                                                     <i class="fas fa-user prefix grey-text"></i>
-                                                    <input type="text" id="orangeForm-name" class="form-control validate">
+                                                    <input name="u_name" type="text" id="orangeForm-name" class="form-control validate">
                                                     <label data-error="wrong" data-success="right"
                                                         for="orangeForm-name">Your name</label>
                                                 </div>
@@ -522,14 +531,14 @@ include '../dbConfig.php';
 
                                                 <div class="md-form mb-5">
                                                     <i class="fas fa-envelope prefix grey-text"></i>
-                                                    <input type="email" id="orangeForm-email" class="form-control validate">
+                                                    <input name="u_email" type="email" id="orangeForm-email" class="form-control validate">
                                                     <label data-error="wrong" data-success="right"
                                                         for="orangeForm-email">Your email</label>
                                                 </div>
 
                                                 <div class="md-form mb-4">
                                                     <i class="fas fa-phone prefix grey-text"></i>
-                                                    <input type="number" id="orangeForm-pass" class="form-control validate">
+                                                    <input name="phone" type="number" id="orangeForm-pass" class="form-control validate">
                                                     <label data-error="wrong" data-success="right"
                                                         for="orangeForm-pass">Your phone no.</label>
                                                 </div>
@@ -538,7 +547,7 @@ include '../dbConfig.php';
 
                                                 <div class="md-form mb-5">
                                                     <i class="fas fa-people-carry prefix grey-text"></i>
-                                                    <input type="number" id="orangeForm-name" class="form-control validate">
+                                                    <input name="noPeople" type="number" id="orangeForm-name" class="form-control validate">
                                                     <label data-error="wrong" data-success="right"
                                                         for="orangeForm-name">Number of People</label>
                                                 </div>
@@ -597,9 +606,22 @@ include '../dbConfig.php';
                                         <p><?php echo $value['experience']; ?></p>
                                         <p><?php echo $value['skill']; ?></p>
 
-
+                                        <?php 
+                                            if (isset($_SESSION['login'])) {
+                                                if ($_SESSION['mode']=='user') {
+                                        ?>
                                         <a href="" class="btn btn-dark" data-toggle="modal"
                                             data-target="#bookGuide<?php echo $count;?>">Book Now</a>
+                                        <?php 
+                                                }
+                                            }
+                                            else{
+
+
+
+                                        ?>
+                                        <a href="../login/login.php">Log In To Book</a>
+                                        <?php } ?>
                                             <?php 
                                                 if($value['available']==1){
                                              ?>
@@ -646,7 +668,7 @@ include '../dbConfig.php';
                                             <div class="modal-body mx-3">
                                                 <div class="md-form mb-5">
                                                     <i class="fas fa-user prefix grey-text"></i>
-                                                    <input type="text" id="orangeForm-name" class="form-control validate">
+                                                    <input name="u_name" type="text" id="orangeForm-name" class="form-control validate">
                                                     <label data-error="wrong" data-success="right"
                                                         for="orangeForm-name">Your name</label>
                                                 </div>
@@ -654,14 +676,14 @@ include '../dbConfig.php';
 
                                                 <div class="md-form mb-5">
                                                     <i class="fas fa-envelope prefix grey-text"></i>
-                                                    <input type="email" id="orangeForm-email" class="form-control validate">
+                                                    <input name="u_email" type="email" id="orangeForm-email" class="form-control validate">
                                                     <label data-error="wrong" data-success="right"
                                                         for="orangeForm-email">Your email</label>
                                                 </div>
 
                                                 <div class="md-form mb-4">
                                                     <i class="fas fa-phone prefix grey-text"></i>
-                                                    <input type="number" id="orangeForm-pass" class="form-control validate">
+                                                    <input name="phone" type="number" id="orangeForm-pass" class="form-control validate">
                                                     <label data-error="wrong" data-success="right"
                                                         for="orangeForm-pass">Your phone no.</label>
                                                 </div>
@@ -670,7 +692,7 @@ include '../dbConfig.php';
 
                                                 <div class="md-form mb-5">
                                                     <i class="fas fa-people-carry prefix grey-text"></i>
-                                                    <input type="number" id="orangeForm-name" class="form-control validate">
+                                                    <input name="noPeople" type="number" id="orangeForm-name" class="form-control validate">
                                                     <label data-error="wrong" data-success="right"
                                                         for="orangeForm-name">Number of People</label>
                                                 </div>
@@ -747,14 +769,6 @@ include '../dbConfig.php';
             </div>
         </div>
     </section>
-<?php 
-        
-    }
-}else{
-    header('Location:../login/login.php');
-}
-     ?>
-
     <div id="footer"></div>
     
 

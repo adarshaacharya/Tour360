@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 29, 2019 at 02:35 PM
+-- Generation Time: Jul 29, 2019 at 03:54 PM
 -- Server version: 10.1.33-MariaDB
 -- PHP Version: 7.2.6
 
@@ -164,17 +164,12 @@ CREATE TABLE `transaction` (
   `guide_id` int(11) NOT NULL,
   `status` int(1) NOT NULL,
   `price` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL
+  `name` varchar(255) NOT NULL,
+  `u_name` varchar(55) NOT NULL,
+  `u_email` varchar(55) NOT NULL,
+  `NoPeople` int(100) NOT NULL,
+  `u_phone` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `transaction`
---
-
-INSERT INTO `transaction` (`transaction_id`, `place_id`, `user_id`, `hotel_id`, `guide_id`, `status`, `price`, `name`) VALUES
-(1, 0, 9, 0, 0, 0, 0, 'Karma'),
-(2, 0, 9, 0, 0, 0, 0, 'Sagarmatha'),
-(3, 0, 10, 0, 0, 0, 0, 'Sagarmatha');
 
 -- --------------------------------------------------------
 
@@ -296,7 +291,7 @@ ALTER TABLE `rating`
 -- AUTO_INCREMENT for table `transaction`
 --
 ALTER TABLE `transaction`
-  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `user`
