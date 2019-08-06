@@ -21,6 +21,8 @@ It was difficult for us to design a web virtual reality view page in such a way 
 You can also use this account for login : 
 
 ```
-Email : new@gmailcom password : new
+Email : new@gmailcom 
+
+password : new
 
 ```
