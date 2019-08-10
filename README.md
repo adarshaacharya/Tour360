@@ -14,11 +14,16 @@ It was difficult for us to design a web virtual reality view page in such a way 
 
 
 
-## Team
-[Pemba]( https://github.com/pemba1s1 )
-[Prajwol]( https://github.com/prajwoltiwari )
-[@pemba]( https://github.com/pemba1s1 )
-[@pemba]( https://github.com/pemba1s1 )
+## Build and Maintained by :
+
+- [Prajwol Tiwari]( https://github.com/prajwoltiwari )
+
+- [Pemba Sherpa]( https://github.com/pemba1s1 )
+
+- [Aadarsha Acharya]( https://github.com/pemba1s1 )
+
+- [Suparth]( https://github.com/suparthghimire )
+
 ---
 
 ## For using the full application you must signup and login that account
