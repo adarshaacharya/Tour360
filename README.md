@@ -22,7 +22,7 @@ It was difficult for us to design a web virtual reality view page in such a way 
 
 - [Aadarsha Acharya]( https://github.com/pemba1s1 )
 
-- [Suparth]( https://github.com/suparthghimire )
+- [Suparth Ghimire]( https://github.com/suparthghimire )
 
 ---
 
