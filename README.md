@@ -15,7 +15,10 @@ It was difficult for us to design a web virtual reality view page in such a way 
 
 
 ## Team
-[@]( https://github.com/pemba1s1 )
+[Pemba]( https://github.com/pemba1s1 )
+[Prajwol]( https://github.com/prajwoltiwari )
+[@pemba]( https://github.com/pemba1s1 )
+[@pemba]( https://github.com/pemba1s1 )
 ---
 
 ## For using the full application you must signup and login that account
