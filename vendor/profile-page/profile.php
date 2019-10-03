@@ -764,7 +764,7 @@ include '../dbConfig.php';
                 <div class="col-lg-4 order-lg-1 text-center">
                     <img src="../../img/profile/everest.webp" class="mx-auto img-fluid img-circle d-block" alt="avatar">
                     <br>
-                    <a target="_blank" class="btn btn-info btn-block" href="./360Images/navBar.php">View 360° Image</a>
+                    <a target="_blank" class="btn btn-info btn-block" href="./360Images/main-page.php">View 360° Image</a>
                 </div>
             </div>
         </div>
