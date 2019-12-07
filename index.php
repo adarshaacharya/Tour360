@@ -112,7 +112,7 @@
                     <h6 class="text-white mb-3">
                        Experience your dream vacation from your home
                     </h6>
-                    <a href="#services" class="btn btn-info btn-lg text-uppercase smooth-scroll">Explore Nepal</a>
+                    <a href="vendor/profile-page/profile.php" class="btn btn-info btn-lg text-uppercase smooth-scroll">Explore Nepal</a>
                 </div>
 
             </div>

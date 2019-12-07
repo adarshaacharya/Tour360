@@ -18,7 +18,7 @@
                 <!-- Text -->
                 <p class="card-text">Click on the below button for details.</p>
                 <!-- Button -->
-                <a href="./vendor/" class="btn btn-info">Explore</a>
+                <a href="./vendor/profile-page/profile.php" class="btn btn-info">Explore</a>
 
             </div>
 
