@@ -1,7 +1,7 @@
 # Tour360
 
+ Tour360 is a virtual reality viewing platform that helps to view 360 images, book flights, hotels and guides. 
 
-Website is live now at : http://100.24.44.234/Tour360/
 
 ---
 
