@@ -23,7 +23,7 @@ It's project built on pure php & html, css and javascript so setup as normal php
 
 - [Pemba Sherpa]( https://github.com/pemba1s1 )
 
-- [Aadarsha Acharya]( https://github.com/pemba1s1 )
+- [Aadarsha Acharya]( https://github.com/adarshaacharya)
 
 - [Suparth Ghimire]( https://github.com/suparthghimire )
 
@@ -32,3 +32,5 @@ It's project built on pure php & html, css and javascript so setup as normal php
 
 Build as part of [Everest Hack](https://everest-hack.com/) - 2019 on Theme Visit Nepal 2020.
 
+
+For any queries DM be on Twitter : [@adarsha_ach](https://x.com/adarsha_ach)
